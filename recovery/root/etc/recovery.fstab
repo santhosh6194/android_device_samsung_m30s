@@ -1,6 +1,8 @@
 /boot           emmc    /dev/block/platform/13520000.ufs/by-name/boot
 /cache          ext4	/dev/block/platform/13520000.ufs/by-name/cache  	flags=backup=1;
 /data           f2fs	/dev/block/platform/13520000.ufs/by-name/userdata
+/dtb            emmc    /dev/block/platform/13520000.ufs/by-name/dtb		flags=backup=1;display="DTB"
+/dtbo           emmc    /dev/block/platform/13520000.ufs/by-name/dtbo		flags=backup=1;display="DTBO"
 /efs	        ext4	/dev/block/platform/13520000.ufs/by-name/efs	    	flags=backup=1;display="EFS"
 /modem	      	emmc	/dev/block/platform/13520000.ufs/by-name/radio	  	flags=backup=1;display="Modem Firmware"
 /product      	ext4	/dev/block/platform/13520000.ufs/by-name/product  	flags=backup=1;display="Product"
