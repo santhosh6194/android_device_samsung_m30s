@@ -15,7 +15,7 @@
 # limitations under the License.
 #
 
-DEVICE_PATH := device/samsung/m30sdd
+DEVICE_PATH := device/samsung/m30s
 
 # Architecture
 TARGET_ARCH := arm64

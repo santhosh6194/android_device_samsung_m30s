@@ -6,5 +6,5 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch omni_m30sdd-eng
+lunch omni_m30s-eng
 make recoveryimage
